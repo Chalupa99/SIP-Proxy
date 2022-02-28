@@ -1,6 +1,9 @@
 
 from sipfullproxy import *
 
+recordroute = ""
+topvia = ""
+registrar = {}
 
 logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s', filename='proxy.log', level=logging.INFO,
                     datefmt='%H:%M:%S')
@@ -16,9 +19,3 @@ recordroute = "Record-Route: <sip:%s:%d;lr>" % (ipaddress, PORT)
 topvia = "Via: SIP/2.0/UDP %s:%d" % (ipaddress, PORT)
 server = socketserver.UDPServer((HOST, PORT), UDPHandler)
 server.serve_forever()
-
-
-
-
-
-
