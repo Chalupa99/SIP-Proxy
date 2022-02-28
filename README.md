@@ -10,6 +10,11 @@ Použil som verejne dostupnú knižnicu z [GitHub](https://github.com/tirfil/PyS
 Celé riešienie je v jazyku Python 3.8
 
 ### Funkcionality
+Implementoval som:
+- Registráciu účastníka bez autentifikácie
+- Vytočenie hovoru a zvonenie na druhej strane
+- Prijatie hovoru druhou stranou a fungujúci hlasový hovor
+- Ukončenie hlasového hovoru (prijatého aj neprijatého)
 
 ### Návod na spustenie
 
