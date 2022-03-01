@@ -22,6 +22,7 @@ Implementoval som:
 - Prijatie hovoru druhou stranou a fungujúci hlasový hovor
 - Ukončenie hlasového hovoru (prijatého aj neprijatého)
 - Úpravu SIP stavových kódov v zdrojovom kóde proxy, konkrétne
+- Možnosť realizovať videohovor
 
 ### Návod na spustenie
 Program sa spúšťa cez súbor `main.py`, v ktorom sa po spustení nastaví SIP ústredňa.
